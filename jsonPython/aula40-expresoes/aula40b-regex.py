@@ -1,4 +1,4 @@
-# Regex
+# Regex curso de python do CFB cursos agora com github
 import re 
 
 texto = "Curso de Python do CFB curso, canal youtube"
