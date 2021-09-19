@@ -1,0 +1,8 @@
+https://www.youtube.com/playlist?list=PLx4x_zx8csUhuVgWfy7keQQAy7t1J35TR
+
+pyinstaller --onefile --noconsole .\aula58tkinter.py
+
+gerar um exe python windows
+
+sem chamar console
+
