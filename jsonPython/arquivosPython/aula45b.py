@@ -10,16 +10,12 @@ arquivo = open("../utils/teste.txt", "r")
 
 
 
-print(arquivo.read())
 
-res = re.sub(" ", "-", arquivo.readline())
-
-
-
-for leitura in arquivo:
-    print(leitura)
+# aqui eu posso tratar como string e retorna usando comando regex
+res = re.sub(" ", "-", arquivo.read())
 
 arquivo.close()
 
 
 print(res)
+
