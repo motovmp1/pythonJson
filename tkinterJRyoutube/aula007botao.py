@@ -18,9 +18,17 @@ menu_inicial.maxsize(1250,900)
 # mudar fundo do formulario
 # menu_inicial['bg'] = "blue"
 
-# button evento
-btn = Button(menu_inicial, text="Executar")
+
+
+# botao esta aqui
+def cmd_Click(mensagem):
+    print(mensagem)
+
+
+# button evento  - precisa usar o lambda
+btn = Button(menu_inicial, text="Executar", command=lambda: cmd_Click("Nova Mensagem"))
 btn.pack()
+
 
 
 
