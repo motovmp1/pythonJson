@@ -1,0 +1,6 @@
+site 
+https://stackoverflow.com/questions/65021005/how-to-run-python-3-with-nodemon
+
+https://www.youtube.com/watch?v=npPwy59JLms&list=PLXik_5Br-zO_m8NaaEix1pyQOsCZM7t1h&index=5
+
+
